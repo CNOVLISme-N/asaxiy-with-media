@@ -1,0 +1,51 @@
+.login {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 4;
+}
+
+
+.login_btn {
+    width: 290px;
+    height: 50px;
+    text-indent: 20px;
+    border: none;
+    background: #dee0e2;
+}
+
+
+.log_btn {
+    margin-top: 10px;
+}
+
+.checbox {
+    width: 279px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checbox span {
+    color: rgb(133, 119, 228);
+}
+
+.btn_login {
+    color: white;
+    background: #006BFF;
+}
+
+@media screen and (max-width:320px) {
+
+    .login {
+        width: auto;
+    }
+
+    .login_btn {
+        width: 180px;
+    }
+
+    .checbox {
+        display: inline;
+    }
+}

@@ -1,0 +1,222 @@
+body {
+    background-color: #F4F7FD;
+    height: auto;
+}
+
+/* ASAXIY NAVBAR-START  */
+
+.main_navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 0.5px solid gainsboro;
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_collection {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.nav_item {
+    cursor: pointer;
+    list-style: none;
+}
+
+.menu_button {
+    width: 110px;
+    height: 36px;
+    border-radius: 9px;
+    border: none;
+    background: #006BFF;
+    color: white;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_button span {
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.menu_button p {
+    font-size: 14px;
+}
+
+.input_btn_search {
+    display: flex;
+}
+
+.navbar_inp {
+    width: 360px;
+    height: 37px;
+    border: 2.3px solid #006BFF;
+    border-radius: 9px 0 0 9px;
+    text-indent: 13px;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #bfccdf;
+}
+
+.input_btn_search button {
+    width: 80px;
+    background: #006BFF;
+    color: white;
+    border-radius: 0 9px 9px 0;
+    border: none;
+    font-size: 14.7px;
+}
+
+.navbar_icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar_icon img {
+    width: 24px;
+}
+
+.nav_icn {
+    color: black;
+    font-size: 21px;
+}
+
+.navbar_icon p {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.p_text {
+    color: black;
+}
+
+.nav_item {
+    text-decoration: none;
+}
+
+.main_NavbarBottom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: white;
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.navbarBottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBottomItem {
+    color: black;
+}
+
+/* ASAXIY NAVBAR-END  */
+
+
+/* MIDDLE NAVBAR START */
+.main_middleNavbar {
+    width: 100%;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 12px 0px #d6d9df;
+}
+
+.middleNavCollection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middleNavItem {
+    list-style: none;
+    cursor: pointer;
+}
+
+.middleNavItem:hover {
+    transition: 0.3s;
+    color: #006BFF;
+}
+
+.main_NavbarBottom {
+    display: none;
+}
+
+/* MIDDLE NAVBAR-END */
+
+
+
+
+
+/*  ASAXIY-MEDIA  */
+@media screen and (max-width:1250px) {
+
+    .navbar_inp {
+        width: auto;
+    }
+
+    .nav_collection {
+        gap: 15px;
+    }
+
+    .menu_button {
+        width: auto;
+    }
+
+    .nav_logo {
+        width: 80px;
+    }
+
+}
+
+@media screen and (max-width:915px) {
+    .menu_button {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    .main_navbar {
+        display: none;
+    }
+
+    .main_middleNavbar {
+        display: none;
+    }
+
+    .main_NavbarBottom {
+        display: flex;
+    }
+
+
+
+}

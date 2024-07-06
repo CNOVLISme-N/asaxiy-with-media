@@ -1,0 +1,180 @@
+.main_singleRoute {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.singlRoute {
+    width: auto;
+}
+
+.sing_img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.padd_Top {
+    padding: 15px;
+    line-height: 2.3;
+}
+
+.singRoute-stars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-stars {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-stars span {
+    font-size: 13px;
+}
+
+.comment-stars p {
+    font-weight: 800;
+    font-size: 12.5px;
+    color: #C2C6DA;
+}
+
+.conection-icn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.conection-icn {
+    color: #006BFF;
+}
+
+.single-del {
+    color: #AF5679;
+}
+
+.single-price {
+    color: #D9663B;
+}
+
+.single-link {
+    color: black;
+}
+
+.single-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.single-buttons button {
+    width: 90px;
+    height: 36px;
+    background: #ffffff;
+    border: 1px solid rgb(202, 202, 210);
+    border-radius: 6px;
+    margin-top: 14px;
+    color: #a2a4ae;
+}
+
+.bolib_tolash {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.nasiya-tolov {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    line-height: 2.8;
+}
+
+.nasiya-tolov p {
+    color: gray;
+    font-size: 14px;
+}
+
+.uzum-nasiya {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #D9663B;
+}
+
+.uzum-nasiya img {
+    width: 100px;
+}
+
+.uzum-nasiya p {
+    font-weight: 700;
+    font-size: 15px;
+    color: #D9663B;
+}
+
+.qiymat span {
+    font-size: 18px;
+}
+
+.nasiya-btn {
+    background-color: #FE7300;
+    width: 98%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 47px;
+}
+
+.img-catgory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.img-catgory img {
+    border: 1px solid #C2C6DA;
+    width: 90px;
+}
+
+@media screen and (max-width:1230px) {
+    .main_singleRoute {
+        flex-direction: column;
+    }
+
+
+
+    .sing_img {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:530px) {
+    .sing_img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sing_img {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .sing_img {
+        padding-left: 119px;
+        overflow: visible;
+        width: 120px;
+    }
+
+    .sing-none-icn {
+        display: none;
+    }
+
+}
